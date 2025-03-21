@@ -130,7 +130,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #8b356a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3031,7 +3031,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #56334d;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3145,7 +3145,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #4a2a3f;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3411,16 +3411,16 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/mifoto.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
 		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
-		background-position: center;
+		background-position: center top;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
@@ -3441,7 +3441,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #86366c;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3456,6 +3456,7 @@ input, select, textarea {
 		#banner h1 {
 			font-size: 3.25em;
 		}
+
 
 		#banner > .inner {
 			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
@@ -3620,7 +3621,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #912c6a;
 	}
 
 		#main > * {
@@ -3829,7 +3830,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgba(143, 113, 130, 0.9);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3957,7 +3958,7 @@ input, select, textarea {
 			}
 
 	body.is-ie #menu {
-		background: rgba(42, 47, 74, 0.975);
+		background: rgba(60, 69, 119, 0.975);
 	}
 
 	body.is-menu-visible #wrapper {
@@ -3981,3 +3982,5 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+	
